@@ -37,6 +37,7 @@ Emphasis won't be placed on:
 User will start by selecting a specific neo by filtering, then the user can inspect a selected NEO. After user is done inspecting, he can return to selecting. 
 ### 3.2 View details
 The app will have to views:
+![App design diagram](app-design.png)
 1. NEO selection:
   * Top part - filtering
   * Rest of the view - list of NEOs, that satisfy the filter conditions
