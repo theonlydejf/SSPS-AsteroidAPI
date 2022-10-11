@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteroidAPI.Android", "AsteroidAPI\AsteroidAPI.Android\AsteroidAPI.Android.csproj", "{0FC62647-3DE9-4D1E-8DBE-21C1475B1D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteroidAPI", "AsteroidAPI\AsteroidAPI\AsteroidAPI.csproj", "{25053065-09CE-4495-AEF4-8A10E176C022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsteroidAPI", "AsteroidAPI\AsteroidAPI\AsteroidAPI.csproj", "{25053065-09CE-4495-AEF4-8A10E176C022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{FDDDF447-B4E5-400F-AEDA-1E5FE92F9D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEOProvider", "NEOProvider\NEOProvider.csproj", "{45FBE38A-658A-4B13-B485-4BDC41A23CA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,14 @@ Global
 		{25053065-09CE-4495-AEF4-8A10E176C022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25053065-09CE-4495-AEF4-8A10E176C022}.Release|Any CPU.Build.0 = Release|Any CPU
 		{25053065-09CE-4495-AEF4-8A10E176C022}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FDDDF447-B4E5-400F-AEDA-1E5FE92F9D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDDF447-B4E5-400F-AEDA-1E5FE92F9D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDDF447-B4E5-400F-AEDA-1E5FE92F9D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDDF447-B4E5-400F-AEDA-1E5FE92F9D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FBE38A-658A-4B13-B485-4BDC41A23CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FBE38A-658A-4B13-B485-4BDC41A23CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FBE38A-658A-4B13-B485-4BDC41A23CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FBE38A-658A-4B13-B485-4BDC41A23CA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

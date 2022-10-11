@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -87,10 +87,14 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\NEOProvider\NEOProvider.csproj">
+      <Project>{45fbe38a-658a-4b13-b485-4bdc41a23ca2}</Project>
+      <Name>NEOProvider</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AsteroidAPI\AsteroidAPI.csproj">
       <Project>{CE0E762C-8AD3-4CB5-8525-0A2C764B9B9A}</Project>
       <Name>AsteroidAPI</Name>
     </ProjectReference>
   </ItemGroup>
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
